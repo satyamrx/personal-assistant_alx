@@ -27,24 +27,6 @@ def speak(word):
 
 mybot = ChatBot("alx")
 
-convo = [
-    'hello, What can i do for you',
-    'How are you?',
-    'I am good sir Thanks for asking.',
-    'Glad to hear',
-    'My name is ALX Sir , i am created by satyam ,  today weather of your location is 32 degree celsius , payload set, Ready to move ',
-    'I am doing great these days, And you?',
-    'In which city you live ?',
-    'I live in patna',
-    'In which language you talk?',
-    ' I mostly talk in english'
-]
-
-trainer = ListTrainer(mybot)
-
-# now training the alx with the help of trainer
-
-trainer.train(convo)
 
 # print("Talk to alx ")
 # while True:
