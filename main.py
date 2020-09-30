@@ -1,5 +1,3 @@
-from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
 from tkinter import *
 from tkinter.ttk import *
 import pyttsx3 as pp
